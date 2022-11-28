@@ -89,7 +89,7 @@ function errar(){
 
 function chutar(){
     let chute = palavraSelecionada.join("")
-    if(chute === chute){
+    if(chute === palavraSelecionada){
         setCor("green")
     } else {
         setCor("red")
